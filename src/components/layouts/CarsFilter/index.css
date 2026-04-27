@@ -1,0 +1,11 @@
+.cars-filter{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(119, 26, 205);
+    width: fit-content;
+    padding: 20px;
+    height: 100vh;
+}
+.cars-filter button{
+    margin-top: 20px;
+}
