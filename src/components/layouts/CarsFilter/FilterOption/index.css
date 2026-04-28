@@ -1,0 +1,13 @@
+.filter-option h3{
+    color: white;
+    font-size: 2rem;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.filter-option select{
+    width: 200px;
+}
+.selected-options{
+    display: flex;
+    flex-direction: column;
+}
