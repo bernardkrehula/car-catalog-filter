@@ -1,11 +1,12 @@
+import type { FilterRangeType } from "./FilterRangeType";
+
 export type FilterOptionsType = {
   brand: string[];
-  model: string[];
   year: number[];
-  price: string[];
+  price: FilterRangeType[];
   fuel_type: string[];
   transmission: string[];
-  mileage: string[];
+  mileage: FilterRangeType[];
   body_type: string[];
   engine_size: string[];
   color: string[];
