@@ -1,7 +1,6 @@
 export type CarType = {
   id: number;
   brand: string;
-  model: string;
   year: number;
   price: number;
   fuel_type: "Petrol" | "Diesel" | "Electric" | "Hybrid";
@@ -10,5 +9,6 @@ export type CarType = {
   body_type: "Sedan" | "SUV" | "Hatchback" | "Coupe" | "Van";
   engine_size: string;
   color: string;
+  image: string;
 }
  
