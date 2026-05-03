@@ -1,0 +1,19 @@
+.homepage {
+  display: flex;
+  gap: 10px;
+}
+.homepage-title {
+  font-size: 2rem;
+  color: white;
+}
+.cars {
+  display: grid;
+  width: 100%;
+  padding: 30px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  gap: 10px;
+  height: 100dvh;
+  overflow: auto;
+  scrollbar-color: #6f6f6f #2a2a2a;
+}
